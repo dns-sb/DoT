@@ -24,3 +24,9 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 2a09:0000:0000:0000:0000:0000:0000:0000@853
 2a09:0000:0000:0000:0000:0000:0000:0001@853
 ```
+
+## Example Configurations
+
+### Stubby
+
+[stubby.yml](example/stubby.yml)
