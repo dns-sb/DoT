@@ -41,8 +41,16 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 
 Expiry Date: Thursday, March 18, 2021
 
+### PEM / CRT File
+
+[dns.sb.crt](cert/dns.sb.crt)
+
 ## Example Configurations
 
 ### Stubby
 
 [stubby.yml](example/stubby.yml)
+
+### Unbound
+
+[unbound](example/unbound.conf)
