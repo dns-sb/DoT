@@ -54,3 +54,7 @@ Expiry Date: Thursday, March 18, 2021
 ### Unbound
 
 [unbound.conf](example/unbound.conf)
+
+### Nebulo (Android App)
+
+The server is included in this app. [Download it](https://git.frostnerd.com/PublicAndroidApps/smokescreen), open the server list at the bottom right and select DNS.SB
