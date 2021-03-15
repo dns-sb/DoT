@@ -6,7 +6,7 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 
 ### Hostname for TLS Authentication
 
-`dns.sb`
+`dot.sb` or `dns.sb`
 
 ### TLS Port
 
@@ -22,24 +22,10 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 ### IPv6
 
 ```
-2a09::
-2a09::1
+Not supported now because Comodo does not support IPv6 on SSL certificates.
 ```
 
-### IPv6 with Full Address
-
-```
-2a09:0000:0000:0000:0000:0000:0000:0000
-2a09:0000:0000:0000:0000:0000:0000:0001
-```
-
-### Base 64 encoded form of SPKI pin(s) for TLS Authentication (RFC7858)
-
-```
-/qCm+kZoAyouNBtgd1MPMS/cwpN4KLr60bAtajPLt0k=
-```
-
-Expiry Date: Thursday, March 18, 2021
+Expiry Date: Tue, 15 Mar 2022 23:59:59 GMT
 
 ### PEM / CRT File
 
