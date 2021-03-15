@@ -22,7 +22,15 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 ### IPv6
 
 ```
-Not supported now because Comodo does not support IPv6 on SSL certificates.
+2a09::
+2a09::1
+```
+
+### IPv6 with Full Address
+
+```
+2a09:0000:0000:0000:0000:0000:0000:0000
+2a09:0000:0000:0000:0000:0000:0000:0001
 ```
 
 Expiry Date: Tue, 15 Mar 2022 23:59:59 GMT
@@ -32,10 +40,6 @@ Expiry Date: Tue, 15 Mar 2022 23:59:59 GMT
 [dns.sb.crt](cert/dns.sb.crt)
 
 ## Example Configurations
-
-### Stubby
-
-[stubby.yml](example/stubby.yml)
 
 ### Unbound
 

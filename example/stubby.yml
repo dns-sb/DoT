@@ -12,21 +12,5 @@ round_robin_upstreams: 1
 upstream_recursive_servers:
   - address_data: 185.222.222.222
     tls_auth_name: "dns.sb"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: /qCm+kZoAyouNBtgd1MPMS/cwpN4KLr60bAtajPLt0k=
   - address_data: 185.184.222.222
     tls_auth_name: "dns.sb"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: /qCm+kZoAyouNBtgd1MPMS/cwpN4KLr60bAtajPLt0k=
-  - address_data: 2a09::0
-    tls_auth_name: "dns.sb"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: /qCm+kZoAyouNBtgd1MPMS/cwpN4KLr60bAtajPLt0k=
-  - address_data: 2a09::1
-    tls_auth_name: "dns.sb"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: /qCm+kZoAyouNBtgd1MPMS/cwpN4KLr60bAtajPLt0k=
