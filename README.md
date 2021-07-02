@@ -16,24 +16,24 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 
 ```
 185.222.222.222
-185.184.222.222
+45.11.45.11
 ```
 
 ### IPv6
 
 ```
 2a09::
-2a09::1
+2a11::
 ```
 
 ### IPv6 with Full Address
 
 ```
 2a09:0000:0000:0000:0000:0000:0000:0000
-2a09:0000:0000:0000:0000:0000:0000:0001
+2a11:0000:0000:0000:0000:0000:0000:0000
 ```
 
-Expiry Date: Tue, 15 Mar 2022 23:59:59 GMT
+Expiry Date: Sat, 02 Jul 2022 23:59:59 GMT
 
 ### PEM / CRT File
 

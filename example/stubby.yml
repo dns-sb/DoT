@@ -11,6 +11,10 @@ listen_addresses:
 round_robin_upstreams: 1
 upstream_recursive_servers:
   - address_data: 185.222.222.222
-    tls_auth_name: "dns.sb"
-  - address_data: 185.184.222.222
-    tls_auth_name: "dns.sb"
+    tls_auth_name: "dot.sb"
+  - address_data: 45.11.45.11
+    tls_auth_name: "dot.sb"
+  - address_data: 2a09::
+    tls_auth_name: "dot.sb"
+  - address_data: 2a11::
+    tls_auth_name: "dot.sb"
