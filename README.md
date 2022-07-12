@@ -33,11 +33,20 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 2a11:0000:0000:0000:0000:0000:0000:0000
 ```
 
-Expiry Date: Sat, 02 Jul 2022 23:59:59 GMT
-
 ### PEM / CRT File
 
 [dns.sb.crt](cert/dns.sb.crt)
+
+### SPKI Pin
+
+```
+0Ot+uUBCfWZkE2GFQQcIpR9GmuhWioGEl+K11FhNmHk=
+```
+You can generate and verify SPKI PIN with the following command:
+
+```bash
+echo | openssl s_client -connect 185.222.222.222:853 2>/dev/null | openssl x509 -pubkey -noout | openssl pkey -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64
+```
 
 ## Example Configurations
 
