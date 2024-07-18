@@ -40,8 +40,9 @@ DNS over TLS (DoT) is a security protocol for encrypting and wrapping Domain Nam
 ### SPKI Pin
 
 ```
-0Ot+uUBCfWZkE2GFQQcIpR9GmuhWioGEl+K11FhNmHk=
+amEjS6OJ74LvhMNJBxN3HXxOMSWAriaFoyMQn/Nb5FU=
 ```
+
 You can generate and verify SPKI PIN with the following command:
 
 ```bash
