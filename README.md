@@ -57,4 +57,4 @@ echo | openssl s_client -connect 185.222.222.222:853 2>/dev/null | openssl x509 
 
 ### Nebulo (Android App)
 
-The server is included in this app. [Download it](https://git.frostnerd.com/PublicAndroidApps/smokescreen), open the server list at the bottom right and select DNS.SB
+The server is included in this app. [Download it](https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen), open the server list at the bottom right and select DNS.SB
